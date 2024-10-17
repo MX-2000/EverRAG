@@ -4,9 +4,10 @@ EverRAG transforms your Evernote into an intelligent, searchable database. If yo
 
 Imagine having the ability to:
 
-Ask Questions, Get Answers: Instantly tap into years of your own ideas and reflections. Need a summary, fresh insights, or a reminder of what you once thought? Just ask.
-Choose Your Own Model: Want to tailor your experience? Select from a range of open-source models to power your queries.
-Select Your Notebooks: Decide exactly which notebooks feed into your knowledge system for complete control over your insights.
+* Ask Questions, Get Answers: Instantly tap into years of your own ideas and reflections. Need a summary, fresh insights, or a reminder of what you once thought? Just ask.
+* Choose Your Own Model: Want to tailor your experience? Select from a range of open-source models to power your queries.
+* Select Your Notebooks: Decide exactly which notebooks feed into your knowledge system for complete control over your insights.
+
 With EverRAG, your ideas don’t just get stored—they become an active part of your thinking process, ready to fuel your next big breakthrough.
 
 EverRAG is a self-RAG locally hosted plugged into your Evernote
