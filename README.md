@@ -32,6 +32,11 @@ Update the question to be asked by whatever you want
 
 `python state_graph.py`
 
+# Result example: 
+
+![image](https://github.com/user-attachments/assets/44aa065b-1450-4aa6-b6ae-fd8c313a7bee)
+
+![image](https://github.com/user-attachments/assets/de1df5a3-9a19-44c7-8a5f-9de7a9797f88)
 
 # RAG graph workflow
 
