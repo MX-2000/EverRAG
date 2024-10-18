@@ -16,8 +16,12 @@ from langgraph.graph import END
 
 from prompts import * 
 
+with open("keys.json", "r") as f: 
+   data = json.loads(f.read())
+   journal_directory = data["journal_directory"]
+
 def _get_key(var: str):
-   with open("keys.json", "r") as f: 
+   with open("conf.json", "r") as f: 
       data = json.loads(f.read()) 
    result = data[var]    
    return result 
@@ -26,7 +30,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "true"
 def get_docs():
 
    #html_file = "Journaling.html"
-   directory = "Journals_html_files"
+   directory = journal_directory
    docs = []
    for filename in os.listdir(directory):
       if filename.endswith("html"):

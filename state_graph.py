@@ -59,8 +59,11 @@ def main():
    #with open("workflow_graph.png", "wb") as f:
     #f.write(img.data)
 
+   with open("conf.json", "r") as f: 
+      data = json.loads(f.read())
+      question = data["question"]
 
-   inputs = {"question": "Quels sont les facteurs qui m'empêchent d'atteindre mes objectifs?", "max_retries": 3}
+   inputs = {"question": question, "max_retries": 3}
    for event in graph.stream(inputs, stream_mode="values"):
       print(event)
 
