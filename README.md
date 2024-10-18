@@ -12,6 +12,14 @@ With EverRAG, your ideas don’t just get stored—they become an active part of
 
 EverRAG is a self-RAG locally hosted plugged into your Evernote
 
+# Setup
+
+## Export your Evernote notebook as html files
+
+In Evernote, right click your notebook, and click: "export notebook as..." and choose "Multiple web pages (.html)"
+![image](https://github.com/user-attachments/assets/f83133c3-9f31-41f5-9dc8-8c0683ba98a7)
+
+
 # RAG graph workflow
 
 ![Workflow](workflow_graph.png)
